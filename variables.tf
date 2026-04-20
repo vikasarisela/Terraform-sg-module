@@ -10,8 +10,9 @@ variable "vpc_id" {
   type = string
 }
 
-variable "description" {
+variable "sg_description" {
   type = string
+  default = ""
 }
 
 variable "sg_name" {
